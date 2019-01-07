@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.cigayung.diagnosakeperawatnsdki">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CariActivity" />
+        <activity android:name=".bersihanjlnafasActivity" />
+        <activity android:name=".ggpertukarangasActivity" />
+        <activity android:name=".res2Activity" />
+        <activity android:name=".Mres04Activity" />
+        <activity android:name=".res05Activity" />
+        <activity android:name=".res06Activity" />
+        <activity android:name=".sir1Activity" />
+        <activity android:name=".sir2Activity" />
+        <activity android:name=".sir3Activity" />
+        <activity android:name=".sir4Activity" />
+        <activity android:name=".sir5Activity" />
+        <activity android:name=".sir6Activity" />
+        <activity android:name=".sir7Activity" />
+        <activity android:name=".sir8Activity" />
+        <activity android:name=".sir9Activity" />
+        <activity android:name=".sir10Activity" />
+        <activity android:name=".sir11Activity" />
+        <activity android:name=".ketentuanActivity" />
+        <activity android:name=".nut1Activity" />
+        <activity android:name=".nut2Activity" />
+        <activity android:name=".nut3Activity" />
+        <activity android:name=".nut4Activity"></activity>
+    </application>
+
+</manifest>
