@@ -225,6 +225,118 @@ public class ListViewAdapter extends BaseAdapter{
                     mContext.startActivity(intent);
 
                 }
+                if (modellist.get(postition).getTitle().equals("Hipervolemia")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nut5Activity.class);
+                    intent.putExtra("actionBarTitle", "Hipervolemia");
+                    mContext.startActivity(intent);
+
+                }
+                if (modellist.get(postition).getTitle().equals("Hipovolemia")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nut6Activity.class);
+                    intent.putExtra("actionBarTitle", "Hipovolemia");
+                    mContext.startActivity(intent);
+
+                }
+                if (modellist.get(postition).getTitle().equals("Ikterik Neonatus")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nut7Activity.class);
+                    intent.putExtra("actionBarTitle", "Ikterik Neonatus");
+                    mContext.startActivity(intent);
+
+                }
+                if (modellist.get(postition).getTitle().equals("Kesiapan Peningkatan Keseimbangan Cairan")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nut8Activity.class);
+                    intent.putExtra("actionBarTitle", "Kesiapan Peningkatan Keseimbangan Cairan");
+                    mContext.startActivity(intent);
+
+                }
+                if (modellist.get(postition).getTitle().equals("Kesiapan Peningkatan Nutrisi")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nut9Activity.class);
+                    intent.putExtra("actionBarTitle", "Kesiapan Peningkatan Nutrisi");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Ketidakstabilan Kadar Glukosa Darah")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nut10Activity.class);
+                    intent.putExtra("actionBarTitle", "Ketidakstabilan Kadar Glukosa Darah");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Menyusui Efektif")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nut11Activity.class);
+                    intent.putExtra("actionBarTitle", "Menyusui Efektif");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Menyusui Tidak Efektif")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nut12Activity.class);
+                    intent.putExtra("actionBarTitle", "Menyusui Tidak Efektif");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Obesitas")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nut13Activity.class);
+                    intent.putExtra("actionBarTitle", "Obesitas");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Risiko Berat Badan Lebih")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nut14Activity.class);
+                    intent.putExtra("actionBarTitle", "Risiko Berat Badan Lebih");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Risiko Defisit Nutrisi")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nut15Activity.class);
+                    intent.putExtra("actionBarTitle", "Risiko Defisit Nutrisi");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Risiko Disfungsi Motilitas Gastrointestinal")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nut16Activity.class);
+                    intent.putExtra("actionBarTitle", "Risiko Disfungsi Motilitas Gastrointestinal");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Risiko Hipovolemia")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nut17Activity.class);
+                    intent.putExtra("actionBarTitle", "Risiko Hipovolemia");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Risiko Ikterik Neonatus")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nut18Activity.class);
+                    intent.putExtra("actionBarTitle", "Risiko Ikterik Neonatus");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Risiko Ketidakseimbangan Cairan")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nut19Activity.class);
+                    intent.putExtra("actionBarTitle", "Risiko Ketidakseimbangan Cairan");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Risiko Ketidakseimbangan Elektrolit")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nut20Activity.class);
+                    intent.putExtra("actionBarTitle", "Risiko Ketidakseimbangan Elektrolit");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Risiko Ketidakstabilan Kadar Glukosa Darah")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nut21Activity.class);
+                    intent.putExtra("actionBarTitle", "Risiko Ketidakstabilan Kadar Glukosa Darah");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Risiko Syok")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nut22Activity.class);
+                    intent.putExtra("actionBarTitle", "Risiko Syok");
+                    mContext.startActivity(intent);
+                }
 
             }
         });

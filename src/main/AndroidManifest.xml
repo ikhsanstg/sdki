@@ -43,7 +43,25 @@
         <activity android:name=".nut1Activity" />
         <activity android:name=".nut2Activity" />
         <activity android:name=".nut3Activity" />
-        <activity android:name=".nut4Activity"></activity>
+        <activity android:name=".nut4Activity" />
+        <activity android:name=".nut5Activity" />
+        <activity android:name=".nut6Activity" />
+        <activity android:name=".nut7Activity" />
+        <activity android:name=".nut8Activity" />
+        <activity android:name=".nut9Activity" />
+        <activity android:name=".nut10Activity" />
+        <activity android:name=".nut11Activity" />
+        <activity android:name=".nut12Activity" />
+        <activity android:name=".nut13Activity" />
+        <activity android:name=".nut14Activity" />
+        <activity android:name=".nut15Activity" />
+        <activity android:name=".nut16Activity" />
+        <activity android:name=".nut17Activity" />
+        <activity android:name=".nut18Activity" />
+        <activity android:name=".nut19Activity" />
+        <activity android:name=".nut20Activity" />
+        <activity android:name=".nut21Activity" />
+        <activity android:name=".nut22Activity"></activity>
     </application>
 
 </manifest>
