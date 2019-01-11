@@ -62,7 +62,11 @@ public class CariActivity extends AppCompatActivity {
                 "Ketidakstabilan Kadar Glukosa Darah","Menyusui Efektif","Menyusui Tidak Efektif","Obesitas",
                 "Risiko Berat Badan Lebih","Risiko Defisit Nutrisi","Risiko Disfungsi Motilitas Gastrointestinal",
                 "Risiko Hipovolemia","Risiko Ikterik Neonatus","Risiko Ketidakseimbangan Cairan",
-                "Risiko Ketidakseimbangan Elektrolit","Risiko Ketidakstabilan Kadar Glukosa Darah","Risiko Syok"};
+                "Risiko Ketidakseimbangan Elektrolit","Risiko Ketidakstabilan Kadar Glukosa Darah","Risiko Syok",
+                "Gangguan Eliminasi Urin", "Inkontinensia Fekal","Inkontinensia Urin Berlanjut",
+                "Inkontinensia Urin Berlebih","Inkontinensia Urin Fungsional","Inkontinensia Urin Refleks",
+                "Inkontinensia Urin Stres","Inkontinensia Urin Urgensi","Kesiapan Peningkatan Eliminasi Urin",
+                "Konstipasi", "Retensi Urin","Risiko Inkontinensia Urin Urgensi","Risiko Konstipasi"};
 
 
 

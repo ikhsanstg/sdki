@@ -61,7 +61,21 @@
         <activity android:name=".nut19Activity" />
         <activity android:name=".nut20Activity" />
         <activity android:name=".nut21Activity" />
-        <activity android:name=".nut22Activity"></activity>
+        <activity android:name=".nut22Activity" />
+        <activity android:name=".eliminasi1Activity" />
+        <activity android:name=".eliminasi2Activity" />
+        <activity android:name=".eliminasi3Activity" />
+        <activity android:name=".elimiansi4Activity" />
+        <activity android:name=".eliminasi5Activity" />
+        <activity android:name=".eliminasi6Activity" />
+        <activity android:name=".eliminasi7Activity" />
+        <activity android:name=".eliminasi8Activity" />
+        <activity android:name=".eliminasi9Activity" />
+        <activity android:name=".eliminasi10Activity" />
+        <activity android:name=".eliminasi11Activity" />
+        <activity android:name=".eliminasi12Activity" />
+        <activity android:name=".eliminasi13Activity" />
+        <activity android:name=".infoActivity"></activity>
     </application>
 
 </manifest>

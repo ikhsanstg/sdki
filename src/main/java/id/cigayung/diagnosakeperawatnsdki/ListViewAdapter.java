@@ -337,6 +337,84 @@ public class ListViewAdapter extends BaseAdapter{
                     intent.putExtra("actionBarTitle", "Risiko Syok");
                     mContext.startActivity(intent);
                 }
+                if (modellist.get(postition).getTitle().equals("Gangguan Eliminasi Urin")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, eliminasi1Activity.class);
+                    intent.putExtra("actionBarTitle", "Gangguan Eliminasi Urin");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Inkontinensia Fekal")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, eliminasi2Activity.class);
+                    intent.putExtra("actionBarTitle", "Inkontinensia Fekal");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Inkontinensia Urin Berlanjut")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, eliminasi3Activity.class);
+                    intent.putExtra("actionBarTitle", "Inkontinensia Urin Berlanjut");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Inkontinensia Urin Berlebih")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, elimiansi4Activity.class);
+                    intent.putExtra("actionBarTitle", "Inkontinensia Urin Berlebih");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Inkontinensia Urin Fungsional")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, eliminasi5Activity.class);
+                    intent.putExtra("actionBarTitle", "Inkontinensia Urin Fungsional");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Inkontinensia Urin Refleks")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, eliminasi6Activity.class);
+                    intent.putExtra("actionBarTitle", "Inkontinensia Urin Refleks");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Inkontinensia Urin Stres")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, eliminasi7Activity.class);
+                    intent.putExtra("actionBarTitle", "Inkontinensia Urin Stres");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Inkontinensia Urin Urgensi")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, eliminasi8Activity.class);
+                    intent.putExtra("actionBarTitle", "Inkontinensia Urin Urgensi");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Kesiapan Peningkatan Eliminasi Urin")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, eliminasi9Activity.class);
+                    intent.putExtra("actionBarTitle", "Kesiapan Peningkatan Eliminasi Urin");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Konstipasi")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, eliminasi10Activity.class);
+                    intent.putExtra("actionBarTitle", "Konstipasi");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Retensi Urin")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, eliminasi11Activity.class);
+                    intent.putExtra("actionBarTitle", "Retensi Urin");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Risiko Inkontinensia Urin Urgensi")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, eliminasi12Activity.class);
+                    intent.putExtra("actionBarTitle", "Risiko Inkontinensia Urin Urgensi");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Risiko Konstipasi")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, eliminasi13Activity.class);
+                    intent.putExtra("actionBarTitle", "Risiko Konstipasi");
+                    mContext.startActivity(intent);
+                }
 
             }
         });

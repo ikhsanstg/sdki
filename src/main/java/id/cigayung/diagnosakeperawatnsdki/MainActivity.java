@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btnCari, btnketentuann;
+    private Button btnCari, btnketentuann, btninfo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         //Inisialisasi
         btnCari = findViewById(R.id.btnCari);
         btnketentuann = findViewById(R.id.btnketentuan);
+        btninfo = findViewById(R.id.btninfo);
 
         btnCari.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,6 +31,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent ii = new Intent(MainActivity.this, ketentuanActivity.class);
                 startActivity(ii);
+            }
+        });
+        btninfo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iii = new Intent(MainActivity.this, infoActivity.class);
+                startActivity(iii);
             }
         });
 
