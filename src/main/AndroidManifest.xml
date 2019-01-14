@@ -75,7 +75,28 @@
         <activity android:name=".eliminasi11Activity" />
         <activity android:name=".eliminasi12Activity" />
         <activity android:name=".eliminasi13Activity" />
-        <activity android:name=".infoActivity"></activity>
+        <activity android:name=".infoActivity" />
+        <activity android:name=".aktivis1Activity" />
+        <activity android:name=".aktivis2Activity" />
+        <activity android:name=".aktivis3Activity" />
+        <activity android:name=".aktivis4Activity" />
+        <activity android:name=".aktivis5Activity" />
+        <activity android:name=".aktivis6Activity" />
+        <activity android:name=".aktivis7Activity" />
+        <activity android:name=".aktivis8Activity" />
+        <activity android:name=".neuro1Activity" />
+        <activity android:name=".neuro2Activity" />
+        <activity android:name=".neuro3Activity" />
+        <activity android:name=".neuro4Activity" />
+        <activity android:name=".neuro5Activity" />
+        <activity android:name=".neuro6Activity" />
+        <activity android:name=".neuro7Activity" />
+        <activity android:name=".neuro8Activity" />
+        <activity android:name=".repro1Activity" />
+        <activity android:name=".repro2Activity" />
+        <activity android:name=".repro3Activity" />
+        <activity android:name=".repro4Activity" />
+        <activity android:name=".repro5Activity"></activity>
     </application>
 
 </manifest>

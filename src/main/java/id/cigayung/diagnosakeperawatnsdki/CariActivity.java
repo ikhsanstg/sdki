@@ -19,8 +19,6 @@ public class CariActivity extends AppCompatActivity {
     ListViewAdapter adapter;
     String[] title;
 
-
-
     private Toast backToast;
     private long backPressed;
 
@@ -66,7 +64,13 @@ public class CariActivity extends AppCompatActivity {
                 "Gangguan Eliminasi Urin", "Inkontinensia Fekal","Inkontinensia Urin Berlanjut",
                 "Inkontinensia Urin Berlebih","Inkontinensia Urin Fungsional","Inkontinensia Urin Refleks",
                 "Inkontinensia Urin Stres","Inkontinensia Urin Urgensi","Kesiapan Peningkatan Eliminasi Urin",
-                "Konstipasi", "Retensi Urin","Risiko Inkontinensia Urin Urgensi","Risiko Konstipasi"};
+                "Konstipasi", "Retensi Urin","Risiko Inkontinensia Urin Urgensi","Risiko Konstipasi",
+                "Disorganisasi Perilaku Bayi","Gangguan Mobilitas Fisik","Gangguan Pola Tidur","Intoleransi Aktivitas",
+                "Keletihan","Kesiapan Peningkatan Tidur","Risiko Disorganisasi Perilaku Bayi",
+                "Risiko Intoleransi Aktivitas","Disrefleksia Otonom","Gangguan Memori","Gangguan Menelan",
+                "Konfusi Akut","Konfusi Kronis","Penurunan Kapasitas Adaptif Intrakranial","Risiko Disfungsi Neurovaskuler Perifer",
+                "Risiko Konfusi Akut","Disfungsi Seksual","Kesiapan Persalinan","Pola Seksual Tidak Efektif",
+                "Risiko Disfungsi Seksual","Risiko Kehamilan Tidak Dikehendaki"};
 
 
 

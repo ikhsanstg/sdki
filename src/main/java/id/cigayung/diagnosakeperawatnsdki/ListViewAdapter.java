@@ -415,6 +415,132 @@ public class ListViewAdapter extends BaseAdapter{
                     intent.putExtra("actionBarTitle", "Risiko Konstipasi");
                     mContext.startActivity(intent);
                 }
+                if (modellist.get(postition).getTitle().equals("Disorganisasi Perilaku Bayi")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, aktivis1Activity.class);
+                    intent.putExtra("actionBarTitle", "Disorganisasi Perilaku Bayi");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Gangguan Mobilitas Fisik")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, aktivis2Activity.class);
+                    intent.putExtra("actionBarTitle", "Gangguan Mobilitas Fisik");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Gangguan Pola Tidur")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, aktivis3Activity.class);
+                    intent.putExtra("actionBarTitle", "Gangguan Pola Tidur");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Intoleransi Aktivitas")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, aktivis4Activity.class);
+                    intent.putExtra("actionBarTitle", "Intoleransi Aktivitas");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Keletihan")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, aktivis5Activity.class);
+                    intent.putExtra("actionBarTitle", "Keletihan");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Kesiapan Peningkatan Tidur")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, aktivis6Activity.class);
+                    intent.putExtra("actionBarTitle", "Kesiapan Peningkatan Tidur");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Risiko Disorganisasi Perilaku Bayi")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, aktivis7Activity.class);
+                    intent.putExtra("actionBarTitle", "Risiko Disorganisasi Perilaku Bayi");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Risiko Intoleransi Aktivitas")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, aktivis8Activity.class);
+                    intent.putExtra("actionBarTitle", "Risiko Intoleransi Aktivitas");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Disrefleksia Otonom")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, neuro1Activity.class);
+                    intent.putExtra("actionBarTitle", "Disrefleksia Otonom");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Gangguan Memori")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, neuro2Activity.class);
+                    intent.putExtra("actionBarTitle", "Gangguan Memori");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Gangguan Menelan")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, neuro3Activity.class);
+                    intent.putExtra("actionBarTitle", "Gangguan Menelan");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Konfusi Akut")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, neuro4Activity.class);
+                    intent.putExtra("actionBarTitle", "Konfusi Akut");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Konfusi Kronis")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, neuro5Activity.class);
+                    intent.putExtra("actionBarTitle", "Konfusi Kronis");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Penurunan Kapasitas Adaptif Intrakranial")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, neuro6Activity.class);
+                    intent.putExtra("actionBarTitle", "Penurunan Kapasitas Adaptif Intrakranial");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Risiko Disfungsi Neurovaskuler Perifer")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, neuro7Activity.class);
+                    intent.putExtra("actionBarTitle", "Risiko Disfungsi Neurovaskuler Perifer");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Risiko Konfusi Akut")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, neuro8Activity.class);
+                    intent.putExtra("actionBarTitle", "Risiko Konfusi Akut");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Disfungsi Seksual")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, repro1Activity.class);
+                    intent.putExtra("actionBarTitle", "Disfungsi Seksual");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Kesiapan Persalinan")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, repro2Activity.class);
+                    intent.putExtra("actionBarTitle", "Kesiapan Persalinan");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Pola Seksual Tidak Efektif")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, repro3Activity.class);
+                    intent.putExtra("actionBarTitle", "Pola Seksual Tidak Efektif");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Risiko Disfungsi Seksual")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, repro4Activity.class);
+                    intent.putExtra("actionBarTitle", "Risiko Disfungsi Seksual");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Risiko Kehamilan Tidak Dikehendaki")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, repro5Activity.class);
+                    intent.putExtra("actionBarTitle", "Risiko Kehamilan Tidak Dikehendaki");
+                    mContext.startActivity(intent);
+                }
 
             }
         });
