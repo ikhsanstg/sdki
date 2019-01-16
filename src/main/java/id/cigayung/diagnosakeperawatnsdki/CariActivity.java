@@ -70,7 +70,10 @@ public class CariActivity extends AppCompatActivity {
                 "Risiko Intoleransi Aktivitas","Disrefleksia Otonom","Gangguan Memori","Gangguan Menelan",
                 "Konfusi Akut","Konfusi Kronis","Penurunan Kapasitas Adaptif Intrakranial","Risiko Disfungsi Neurovaskuler Perifer",
                 "Risiko Konfusi Akut","Disfungsi Seksual","Kesiapan Persalinan","Pola Seksual Tidak Efektif",
-                "Risiko Disfungsi Seksual","Risiko Kehamilan Tidak Dikehendaki"};
+                "Risiko Disfungsi Seksual","Risiko Kehamilan Tidak Dikehendaki", "Gangguan Rasa Nyaman","Ketidaknyamanan Pasca Partum",
+                "Nausea","Nyeri Akut","Nyeri Kronis","Nyeri Melahirkan", "Ansietas","Berduka", "Distres Spiritual",
+                "Ganguan Citra Tubuh","Gangguan Identitas Diri","Gangguan Persepsi Sensori","Harga Diri Rendah Kronis",
+                "Harga Diri Rendah Situasional"};
 
 
 

@@ -541,6 +541,48 @@ public class ListViewAdapter extends BaseAdapter{
                     intent.putExtra("actionBarTitle", "Risiko Kehamilan Tidak Dikehendaki");
                     mContext.startActivity(intent);
                 }
+                if (modellist.get(postition).getTitle().equals("Gangguan Rasa Nyaman")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nyaman1Activity.class);
+                    intent.putExtra("actionBarTitle", "Gangguan Rasa Nyaman");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Ketidaknyamanan Pasca Partum")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nyaman2Activity.class);
+                    intent.putExtra("actionBarTitle", "Ketidaknyamanan Pasca Partum");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Nausea")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nyaman3Activity.class);
+                    intent.putExtra("actionBarTitle", "Nausea");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Nyeri Akut")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nyaman4Activity.class);
+                    intent.putExtra("actionBarTitle", "Nyeri Akut");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Nyeri Kronis")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nyaman5Activity.class);
+                    intent.putExtra("actionBarTitle", "Nyeri Kronis");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Nyeri Melahirkan")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, nyaman6Activity.class);
+                    intent.putExtra("actionBarTitle", "Nyeri Melahirkan");
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("Ansietas")){
+                    //start NewActivity with title for actionbar and text for textview
+                    Intent intent = new Intent(mContext, ego0Activity.class);
+                    intent.putExtra("actionBarTitle", "Ansietas");
+                    mContext.startActivity(intent);
+                }
 
             }
         });

@@ -11,6 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ego0Activity"></activity>
+        <activity android:name=".nyaman6Activity" />
+        <activity android:name=".nyaman5Activity" />
+        <activity android:name=".nyaman4Activity" />
+        <activity android:name=".nyaman3Activity" />
+        <activity android:name=".nyaman2Activity" />
+        <activity android:name=".nyaman1Activity" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -96,7 +103,7 @@
         <activity android:name=".repro2Activity" />
         <activity android:name=".repro3Activity" />
         <activity android:name=".repro4Activity" />
-        <activity android:name=".repro5Activity"></activity>
+        <activity android:name=".repro5Activity" />
     </application>
 
 </manifest>
